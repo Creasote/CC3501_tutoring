@@ -61,16 +61,17 @@ int main(void)
   uint16 counter;
 
   for (;;){
-	  //AD2_GetValue16(&light_in);
+	  AD2_GetValue16(&light_in);
 	  //if (light_in > 32000)
 	  
 		  WAIT1_Waitms(1000);//
 
 	  Bluepin_NegVal();
-	  for (counter = 1; counter < 0xFFFF; counter++){
-	  PWM1_SetRatio16(counter);
-	  WAIT1_Waitms(1);
-	  }
+	  //for (counter = 1; counter < 0xFFFF; counter++){
+	  &light_out = (&light_in - 46000) * 2;
+	  PWM1_SetRatio16(&light_out);
+	 // WAIT1_Waitms(1);
+	  //}
 	  
 	  //else
 		//  PWM1_SetRatio16(0);
