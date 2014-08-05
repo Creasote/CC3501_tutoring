@@ -64,12 +64,19 @@ int main(void)
 	  AD2_GetValue16(&light_in);
 	  //if (light_in > 32000)
 	  
-		  WAIT1_Waitms(1000);//
+		  //WAIT1_Waitms(1000);//
 
 	  Bluepin_NegVal();
-	  //for (counter = 1; counter < 0xFFFF; counter++){
-	  &light_out = (&light_in - 46000) * 2;
-	  PWM1_SetRatio16(&light_out);
+	  for (counter = 1; counter < 0xFFFF; counter++){
+	  if (counter < (0xFFFF / 2)){
+		  light_out = 0; // full bright
+	  } 
+	  else{
+		  light_out = 0xFFFF; // off
+	  }
+	  WAIT1_Waitus(10);
+	  PWM1_SetRatio16(light_out);
+	  }
 	 // WAIT1_Waitms(1);
 	  //}
 	  
