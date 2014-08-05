@@ -7,7 +7,7 @@
 **     Version     : Component 01.009, Driver 01.04, CPU db: 3.00.000
 **     Datasheet   : K20P64M50SF0RM Rev. 1, Oct 2011
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-08-05, 23:38, # CodeGen: 3
+**     Date/Time   : 2014-08-06, 00:40, # CodeGen: 14
 **     Abstract    :
 **
 **     Settings    :
@@ -37,9 +37,12 @@
 /* {Default RTOS Adapter} No RTOS includes */
 #include "AD2.h"
 #include "AdcLdd1.h"
+#include "TU1.h"
+#include "Bluepin.h"
+#include "BitIoLdd1.h"
+#include "WAIT1.h"
 #include "PWM1.h"
 #include "PwmLdd1.h"
-#include "TU1.h"
 #include "PE_Types.h"
 #include "PE_Error.h"
 #include "PE_Const.h"
@@ -126,8 +129,8 @@ void __init_hardware(void)
   SIM_CLKDIV1 = SIM_CLKDIV1_OUTDIV1(0x00) |
                 SIM_CLKDIV1_OUTDIV2(0x01) |
                 SIM_CLKDIV1_OUTDIV4(0x03); /* Set the system prescalers to safe value */
-  /* SIM_SCGC5: PORTA=1 */
-  SIM_SCGC5 |= SIM_SCGC5_PORTA_MASK;   /* Enable clock gate for ports to enable pin routing */
+  /* SIM_SCGC5: PORTC=1,PORTA=1 */
+  SIM_SCGC5 |= (SIM_SCGC5_PORTC_MASK | SIM_SCGC5_PORTA_MASK); /* Enable clock gate for ports to enable pin routing */
   if ((PMC_REGSC & PMC_REGSC_ACKISO_MASK) != 0x0U) {
     /* PMC_REGSC: ACKISO=1 */
     PMC_REGSC |= PMC_REGSC_ACKISO_MASK; /* Release IO pads after wakeup from VLLS mode. */
@@ -265,6 +268,8 @@ void PE_low_level_init(void)
   NVICIP8 = NVIC_IP_PRI8(0x00);                                   
   /* ### ADC "AD2" init code ... */
   AD2_Init();
+  /* ### BitIO_LDD "BitIoLdd1" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
+  (void)BitIoLdd1_Init(NULL);
   /* ### PWM_LDD "PwmLdd1" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
   (void)PwmLdd1_Init(NULL);
   /* Enable interrupts of the given priority level */

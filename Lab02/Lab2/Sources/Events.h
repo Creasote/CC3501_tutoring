@@ -36,9 +36,12 @@
 #include "IO_Map.h"
 #include "AD2.h"
 #include "AdcLdd1.h"
+#include "TU1.h"
+#include "Bluepin.h"
+#include "BitIoLdd1.h"
+#include "WAIT1.h"
 #include "PWM1.h"
 #include "PwmLdd1.h"
-#include "TU1.h"
 
 #ifdef __cplusplus
 extern "C" {

@@ -32,9 +32,12 @@
 #include "Events.h"
 #include "AD2.h"
 #include "AdcLdd1.h"
+#include "TU1.h"
+#include "Bluepin.h"
+#include "BitIoLdd1.h"
+#include "WAIT1.h"
 #include "PWM1.h"
 #include "PwmLdd1.h"
-#include "TU1.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
 #include "PE_Error.h"
@@ -55,10 +58,22 @@ int main(void)
 
   uint16 light_in;
   uint16 light_out;
-  
+  uint16 counter;
+
   for (;;){
-	  AD2_GetValue16(&light_in);
-	  PWM1_SetRatio16(&light_in);
+	  //AD2_GetValue16(&light_in);
+	  //if (light_in > 32000)
+	  
+		  WAIT1_Waitms(1000);//
+
+	  Bluepin_NegVal();
+	  for (counter = 1; counter < 0xFFFF; counter++){
+	  PWM1_SetRatio16(counter);
+	  WAIT1_Waitms(10);
+	  }
+	  
+	  //else
+		//  PWM1_SetRatio16(0);
   /* Write your code here */
   /* For example: for(;;) { } */
 

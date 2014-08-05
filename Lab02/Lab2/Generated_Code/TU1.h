@@ -6,7 +6,7 @@
 **     Component   : TimerUnit_LDD
 **     Version     : Component 01.158, Driver 01.11, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-08-05, 23:38, # CodeGen: 3
+**     Date/Time   : 2014-08-06, 00:40, # CodeGen: 14
 **     Abstract    :
 **          This TimerUnit component provides a low level API for unified hardware access across
 **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
@@ -18,20 +18,20 @@
 **          Counter width                                  : 16 bits
 **          Value type                                     : uint16_t
 **          Input clock source                             : Internal
-**            Counter frequency                            : Auto select
+**            Counter frequency                            : 12.5 MHz
 **          Counter restart                                : On-match
 **            Period device                                : FTM0_MOD
-**            Period                                       : 2.097152 sec
+**            Period                                       : 5 ms
 **            Interrupt                                    : Disabled
 **          Channel list                                   : 1
 **            Channel 0                                    : 
 **              Mode                                       : Compare
-**                Compare                                  : FTM0_C7V
-**                Offset                                   : 167.776 ms
+**                Compare                                  : FTM0_C2V
+**                Offset                                   : 1 ms
 **                Output on compare                        : Set
 **                  Output on overrun                      : Clear
 **                  Initial state                          : Low
-**                  Output pin                             : TSI0_CH3/PTA2/UART0_TX/FTM0_CH7/JTAG_TDO/TRACE_SWO/EZP_DO
+**                  Output pin                             : CMP1_IN1/PTC3/LLWU_P7/SPI0_PCS1/UART1_RX/FTM0_CH2/CLKOUTa/I2S0_TX_BCLK
 **                  Output pin signal                      : 
 **                Interrupt                                : Disabled
 **          Initialization                                 : 
@@ -106,14 +106,14 @@ extern "C" {
 #define __BWUserType_TU1_TValueType
   typedef uint16_t TU1_TValueType ;    /* Type for data parameters of methods */
 #endif
-#define TU1_CNT_INP_FREQ_U_0 0x7A12UL  /* Counter input frequency in Hz */
-#define TU1_CNT_INP_FREQ_R_0 31250.0F  /* Counter input frequency in Hz */
+#define TU1_CNT_INP_FREQ_U_0 0x00BEBC20UL /* Counter input frequency in Hz */
+#define TU1_CNT_INP_FREQ_R_0 12500000.0F /* Counter input frequency in Hz */
 #define TU1_CNT_INP_FREQ_COUNT 0U      /* Count of predefined counter input frequencies */
-#define TU1_PERIOD_TICKS   0x00010000UL /* Initialization value of period in 'counter ticks' */
+#define TU1_PERIOD_TICKS   0xF424UL    /* Initialization value of period in 'counter ticks' */
 #define TU1_NUMBER_OF_CHANNELS 0x01U   /* Count of predefined channels */
 #define TU1_COUNTER_WIDTH  0x10U       /* Counter width in bits  */
 #define TU1_COUNTER_DIR    DIR_UP      /* Direction of counting */
-#define TU1_OFFSET_0_TICKS 0x147Bul    /* Initialization value of offset as 'counter ticks' for channel 0 */
+#define TU1_OFFSET_0_TICKS 0x30D4ul    /* Initialization value of offset as 'counter ticks' for channel 0 */
 /*! Peripheral base address of a device allocated by the component. This constant can be used directly in PDD macros. */
 #define TU1_PRPH_BASE_ADDRESS  0x40038000U
   

@@ -5,7 +5,7 @@
 **     Processor   : MK20DX128VLH5
 **     Version     : Component 01.009, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-08-05, 23:38, # CodeGen: 3
+**     Date/Time   : 2014-08-06, 00:40, # CodeGen: 14
 **     Abstract    :
 **
 **     Settings    :
@@ -43,7 +43,8 @@
 ** Array of initialized device structures of LDD components.
 ** ===========================================================================
 */
-LDD_TDeviceData *PE_LDD_DeviceDataList[3] = {
+LDD_TDeviceData *PE_LDD_DeviceDataList[4] = {
+    NULL,
     NULL,
     NULL,
     NULL
@@ -120,6 +121,8 @@ bool PE_PeripheralUsed(uint32_t PrphBaseAddress)
     case 0x4003B000UL:
     /* Base address allocated by peripheral(s) FTM0 */
     case 0x40038000UL:
+    /* Base address allocated by peripheral(s) PTA */
+    case 0x400FF000UL:
       result = TRUE;
       break;
     default:

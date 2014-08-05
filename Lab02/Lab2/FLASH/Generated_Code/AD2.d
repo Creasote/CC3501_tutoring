@@ -25,12 +25,17 @@ Generated_Code/AD2.o: ../Generated_Code/AD2.c \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/ADC_PDD.h \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h \
  C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/AdcLdd1.h \
+ C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/TU1.h \
+ C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h \
+ C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/Bluepin.h \
+ C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/BitIoLdd1.h \
+ C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h \
+ C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/BitIoLdd1.h \
+ C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/WAIT1.h \
  C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/PWM1.h \
  C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/PwmLdd1.h \
  C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/TU1.h \
- C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h \
  C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/PwmLdd1.h \
- C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/TU1.h \
  ../Generated_Code/AD2.h
 
 C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
@@ -85,16 +90,26 @@ C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h:
 
 C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/AdcLdd1.h:
 
+C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/TU1.h:
+
+C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h:
+
+C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/Bluepin.h:
+
+C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/BitIoLdd1.h:
+
+C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h:
+
+C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/BitIoLdd1.h:
+
+C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/WAIT1.h:
+
 C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/PWM1.h:
 
 C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/PwmLdd1.h:
 
 C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/TU1.h:
 
-C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h:
-
 C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/PwmLdd1.h:
-
-C:/Users/Creasote/Dropbox/Documents/personal/Git/CC3501_tutoring/Lab02/Lab2/Generated_Code/TU1.h:
 
 ../Generated_Code/AD2.h:

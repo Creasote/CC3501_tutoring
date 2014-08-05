@@ -16,9 +16,12 @@ Generated_Code/PE_LDD.o: ../Generated_Code/PE_LDD.c \
  ../Generated_Code/AdcLdd1.h ../Generated_Code/Cpu.h \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/ADC_PDD.h \
  C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h \
- ../Generated_Code/PWM1.h ../Generated_Code/PwmLdd1.h \
  ../Generated_Code/TU1.h \
- C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h
+ C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h \
+ ../Generated_Code/Bluepin.h ../Generated_Code/BitIoLdd1.h \
+ C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h \
+ ../Generated_Code/WAIT1.h ../Generated_Code/PWM1.h \
+ ../Generated_Code/PwmLdd1.h
 
 C:/Freescale/CW\ MCU\ v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -62,10 +65,18 @@ C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/ADC_PDD.h:
 
 C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h:
 
-../Generated_Code/PWM1.h:
-
-../Generated_Code/PwmLdd1.h:
-
 ../Generated_Code/TU1.h:
 
 C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/FTM_PDD.h:
+
+../Generated_Code/Bluepin.h:
+
+../Generated_Code/BitIoLdd1.h:
+
+C:/Freescale/CW\ MCU\ v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h:
+
+../Generated_Code/WAIT1.h:
+
+../Generated_Code/PWM1.h:
+
+../Generated_Code/PwmLdd1.h:

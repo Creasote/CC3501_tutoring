@@ -6,7 +6,7 @@
 **     Component   : PWM
 **     Version     : Component 02.240, Driver 01.01, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-08-05, 23:38, # CodeGen: 3
+**     Date/Time   : 2014-08-06, 00:40, # CodeGen: 14
 **     Abstract    :
 **         This component implements a pulse-width modulation generator
 **         that generates signal with variable duty and fixed cycle. 
@@ -15,7 +15,7 @@
 **             ----------------------------------------------------
 **                Number (on package)  |    Name
 **             ----------------------------------------------------
-**                       24            |  TSI0_CH3/PTA2/UART0_TX/FTM0_CH7/JTAG_TDO/TRACE_SWO/EZP_DO
+**                       46            |  CMP1_IN1/PTC3/LLWU_P7/SPI0_PCS1/UART1_RX/FTM0_CH2/CLKOUTa/I2S0_TX_BCLK
 **             ----------------------------------------------------
 **
 **         Timer name                  : FTM0_CNT [16-bit]
@@ -23,16 +23,16 @@
 **         Mode register               : FTM0_SC   [0x40038000]
 **         Run register                : FTM0_SC   [0x40038000]
 **         Prescaler                   : FTM0_SC   [0x40038000]
-**         Compare register            : FTM0_C7V  [0x40038048]
-**         Flip-flop register          : FTM0_C7SC [0x40038044]
+**         Compare register            : FTM0_C2V  [0x40038020]
+**         Flip-flop register          : FTM0_C2SC [0x4003801C]
 **
 **         User handling procedure     : not specified
 **
-**         Port name                   : PTA
-**         Bit number (in port)        : 2
-**         Bit mask of the port        : 0x0004
-**         Port data register          : GPIOA_PDOR [0x400FF000]
-**         Port control register       : GPIOA_PDDR [0x400FF014]
+**         Port name                   : PTC
+**         Bit number (in port)        : 3
+**         Bit mask of the port        : 0x0008
+**         Port data register          : GPIOC_PDOR [0x400FF080]
+**         Port control register       : GPIOC_PDDR [0x400FF094]
 **
 **         Initialization:
 **              Output level           : low
@@ -44,9 +44,9 @@
 **           Initial value of            period     pulse width
 **             Xtal ticks              : ---        ---
 **             microseconds            : ---        ---
-**             milliseconds            : ---        167
-**             seconds                 : 2          ---
-**             seconds (real)          : 2.097152   167.776
+**             milliseconds            : 5          1
+**             seconds                 : ---        ---
+**             seconds (real)          : 5          1
 **
 **     Contents    :
 **         SetRatio16 - byte PWM1_SetRatio16(word Ratio);
@@ -151,7 +151,7 @@ extern "C" {
 **     Parameters  :
 **         NAME            - DESCRIPTION
 **         Time            - Duty to set [in milliseconds]
-**                      (0 to --- ms in high speed mode)
+**                      (0 to 5 ms in high speed mode)
 **     Returns     :
 **         ---             - Error code, possible codes:
 **                           ERR_OK - OK
