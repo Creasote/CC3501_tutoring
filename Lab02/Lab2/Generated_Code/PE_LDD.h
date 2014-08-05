@@ -5,7 +5,7 @@
 **     Processor   : MK20DX128VLH5
 **     Version     : Component 01.009, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-08-05, 22:51, # CodeGen: 0
+**     Date/Time   : 2014-08-05, 23:38, # CodeGen: 3
 **     Abstract    :
 **
 **     Settings    :
@@ -35,6 +35,11 @@
 #include "PE_Types.h"
 #include "PE_Error.h"
 #include "PE_Const.h"
+#include "AD2.h"
+#include "AdcLdd1.h"
+#include "PWM1.h"
+#include "PwmLdd1.h"
+#include "TU1.h"
 
 
 /*

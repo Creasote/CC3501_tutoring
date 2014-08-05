@@ -7,7 +7,7 @@
 **     Version     : Component 01.009, Driver 01.04, CPU db: 3.00.000
 **     Datasheet   : K20P64M50SF0RM Rev. 1, Oct 2011
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-08-05, 23:10, # CodeGen: 1
+**     Date/Time   : 2014-08-05, 23:38, # CodeGen: 3
 **     Abstract    :
 **
 **     Settings    :
@@ -35,6 +35,11 @@
 /* MODULE Cpu. */
 
 /* {Default RTOS Adapter} No RTOS includes */
+#include "AD2.h"
+#include "AdcLdd1.h"
+#include "PWM1.h"
+#include "PwmLdd1.h"
+#include "TU1.h"
 #include "PE_Types.h"
 #include "PE_Error.h"
 #include "PE_Const.h"
@@ -258,6 +263,10 @@ void PE_low_level_init(void)
   /* Common initialization of the CPU registers */
   /* NVICIP8: PRI8=0 */
   NVICIP8 = NVIC_IP_PRI8(0x00);                                   
+  /* ### ADC "AD2" init code ... */
+  AD2_Init();
+  /* ### PWM_LDD "PwmLdd1" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
+  (void)PwmLdd1_Init(NULL);
   /* Enable interrupts of the given priority level */
   Cpu_SetBASEPRI(0U);
 }

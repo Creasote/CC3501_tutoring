@@ -5,7 +5,7 @@
 **     Processor   : MK20DX128VLH5
 **     Version     : Component 01.009, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-08-05, 22:51, # CodeGen: 0
+**     Date/Time   : 2014-08-05, 23:38, # CodeGen: 3
 **     Abstract    :
 **
 **     Settings    :
@@ -29,6 +29,11 @@
 */         
 
   #include "Cpu.h"
+  #include "AD2.h"
+  #include "AdcLdd1.h"
+  #include "PWM1.h"
+  #include "PwmLdd1.h"
+  #include "TU1.h"
   #include "Events.h"
 
 
@@ -86,7 +91,7 @@
     (tIsrFunc)&Cpu_Interrupt,          /* 0x23  0x0000008C   -   ivINT_UART1_ERR               unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x24  0x00000090   -   ivINT_UART2_RX_TX             unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x25  0x00000094   -   ivINT_UART2_ERR               unused by PE */
-    (tIsrFunc)&Cpu_Interrupt,          /* 0x26  0x00000098   -   ivINT_ADC0                    unused by PE */
+    (tIsrFunc)&AdcLdd1_MeasurementCompleteInterrupt, /* 0x26  0x00000098   8   ivINT_ADC0                    used by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x27  0x0000009C   -   ivINT_CMP0                    unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x28  0x000000A0   -   ivINT_CMP1                    unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x29  0x000000A4   -   ivINT_FTM0                    unused by PE */
