@@ -74,7 +74,6 @@ int main(void)
 	  else{
 		  light_out = 0xFFFF; // off
 	  }
-	  WAIT1_Waitus(10);
 	  PWM1_SetRatio16(light_out);
 	  }
 	 // WAIT1_Waitms(1);
