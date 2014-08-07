@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-org.eclipse.rse.preferences.order.connections=brian.Local
+org.eclipse.rse.preferences.order.connections=brian.Local;brian.Lab03_FLASH_OpenSDA;brian.Lab03_FLASH_OpenSDA Target

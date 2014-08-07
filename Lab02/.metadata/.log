@@ -845,3 +845,3252 @@ Binding(HOME,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.cdt.dsf.debug.ui.disassembly.context,,,system)
+
+!ENTRY org.eclipse.debug.core 4 2 2014-08-06 01:15:23.972
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1265)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2606)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:236)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:225)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.update(RemoveAllGlobalsActionDelegate.java:99)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.handleDebugEvents(RemoveAllGlobalsActionDelegate.java:131)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2014-08-06 01:15:23.976
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1265)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2606)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:236)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:225)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.update(RemoveAllGlobalsActionDelegate.java:99)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.handleDebugEvents(RemoveAllGlobalsActionDelegate.java:131)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 2 2014-08-06 01:15:23.984
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.getMemorySite(CMemoryRenderingStore.java:82)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore$2.run(CMemoryRenderingStore.java:220)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:200)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4702)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.handleDebugEvents(CMemoryRenderingStore.java:218)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2014-08-06 01:15:23.986
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.getMemorySite(CMemoryRenderingStore.java:82)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore$2.run(CMemoryRenderingStore.java:220)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:200)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4702)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.handleDebugEvents(CMemoryRenderingStore.java:218)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2014-08-06 01:17:52.540 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\Creasote\Dropbox\Documents\personal\Git\CC3501_tutoring\Lab02
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-08-06 01:17:54.408
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 01:17:55.747
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.processorexpert.core 1 0 2014-08-06 01:17:57.073
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 01:18:15.996
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 01:18:16.007
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 01:18:16.010
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 01:18:16.013
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY org.eclipse.ui 4 0 2014-08-06 01:18:17.811
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:158)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4159)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:630)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:585)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1439)
+Caused by: java.lang.NullPointerException
+	at com.freescale.targettaskframework.arrangements.TaskGroupArrangement$1.run(TaskGroupArrangement.java:864)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:155)
+	... 23 more
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 01:18:47.606
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 01:18:47.608
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 01:18:47.609
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-06 01:19:05.749
+!MESSAGE Indexed 'CC3501_Lab2' (6 sources, 27 headers) in 1.87 sec: 316 declarations; 811 references; 36 unresolved inclusions; 0 syntax errors; 4 unresolved names (0.35%)
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 01:30:35.630
+!MESSAGE NLS unused message: trace_trigger_dv_error_title in: com.freescale.sa.mcu.analysispoints.nls.ui
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 01:30:35.632
+!MESSAGE NLS unused message: trace_trigger_dv_error_message in: com.freescale.sa.mcu.analysispoints.nls.ui
+
+!ENTRY org.eclipse.jface 2 0 2014-08-06 01:30:35.705
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13106b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13106b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1afaeee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1afaeee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@105a9df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@105a9df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d37520,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d37520,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ae98b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ae98b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@abe269,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@abe269,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9d7a9d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9d7a9d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@dcf674,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@dcf674,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-06 01:30:35.706
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b8707b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b8707b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SESSION 2014-08-06 08:57:03.896 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 08:57:36.290
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.processorexpert.core 1 0 2014-08-06 08:58:49.317
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 09:00:09.447
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 09:00:09.484
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 09:00:09.487
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 09:00:09.491
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY org.eclipse.ui 4 0 2014-08-06 09:00:18.367
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:158)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4159)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:630)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:585)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1439)
+Caused by: java.lang.NullPointerException
+	at com.freescale.targettaskframework.arrangements.TaskGroupArrangement$1.run(TaskGroupArrangement.java:864)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:155)
+	... 23 more
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 09:00:23.789
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 09:00:23.794
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 09:00:23.796
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY org.eclipse.help 4 0 2014-08-06 09:31:00.089
+!MESSAGE Error reading help table of contents file /"com.freescale.doc.cde.getstart.userguide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.getTopicCategory(ContextHelpPart.java:673)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.formatHelpContext(ContextHelpPart.java:623)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.handleActivation(ContextHelpPart.java:323)
+	at org.eclipse.help.ui.internal.views.ContextHelpPart.setFormInput(ContextHelpPart.java:712)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.RelatedTopicsPart.setFormInput(RelatedTopicsPart.java:187)
+	at org.eclipse.ui.forms.ManagedForm.setInput(ManagedForm.java:238)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.update(ReusableHelpPart.java:1158)
+	at org.eclipse.help.ui.internal.views.HelpView.displayContext(HelpView.java:367)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:334)
+	at org.eclipse.help.ui.internal.DefaultHelpUI.displayContext(DefaultHelpUI.java:288)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayHelp(WorkbenchHelpSystem.java:946)
+	at com.processorexpert.core.PEApi.showHelpForComponent(PEApi.java:208)
+	at com.processorexpert.ui.inspector.views.InspectorView$10.run(InspectorView.java:748)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4184)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:630)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:585)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1439)
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 10:43:30.395
+!MESSAGE NLS unused message: trace_trigger_dv_error_title in: com.freescale.sa.mcu.analysispoints.nls.ui
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 10:43:30.400
+!MESSAGE NLS unused message: trace_trigger_dv_error_message in: com.freescale.sa.mcu.analysispoints.nls.ui
+!SESSION 2014-08-06 16:47:08.545 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 16:47:20.597
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.processorexpert.core 1 0 2014-08-06 16:47:24.362
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 16:48:33.472
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 16:48:33.481
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 16:48:33.484
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 16:48:33.487
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY org.eclipse.help 4 0 2014-08-06 16:48:34.280
+!MESSAGE Error reading help table of contents file /"com.freescale.doc.cde.getstart.userguide/toc.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.toc.TocFileParser.parse(TocFileParser.java:49)
+	at org.eclipse.help.internal.toc.TocFileProvider.getTocContributions(TocFileProvider.java:47)
+	at org.eclipse.help.internal.toc.TocManager.getAndCacheTocContributions(TocManager.java:210)
+	at org.eclipse.help.internal.toc.TocManager.getTocContributionsForToc(TocManager.java:199)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:306)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.internal.toc.TocManager.getTopic(TocManager.java:123)
+	at org.eclipse.help.internal.toc.TocManager.getTopicPath(TocManager.java:138)
+	at org.eclipse.help.internal.webapp.data.UrlUtil.getTopicPath(UrlUtil.java:240)
+	at org.eclipse.help.internal.webapp.servlet.BreadcrumbsFilter.filter(BreadcrumbsFilter.java:76)
+	at org.eclipse.help.internal.webapp.servlet.EclipseConnector.transfer(EclipseConnector.java:196)
+	at org.eclipse.help.internal.webapp.servlet.ContentServlet.doGet(ContentServlet.java:45)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:386)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2014-08-06 16:48:36.346
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:158)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4159)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:630)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:585)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1439)
+Caused by: java.lang.NullPointerException
+	at com.freescale.targettaskframework.arrangements.TaskGroupArrangement$1.run(TaskGroupArrangement.java:864)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:155)
+	... 23 more
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 16:48:37.800
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 16:48:37.802
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 16:48:37.803
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.5\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 16:58:16.412
+!MESSAGE NLS missing message: ProfilesDialogContentProvider_FailedWorkspaceRefresh in: com.freescale.configuration.internal.ui.messages
+!SESSION 2014-08-06 19:07:49.041 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:08:46.882
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.processorexpert.core 1 0 2014-08-06 19:09:09.506
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 19:10:42.152
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 19:10:42.154
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 19:10:42.157
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-06 19:10:42.159
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 19:11:25.144
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 19:11:25.172
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 19:11:25.174
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 19:11:32.037
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 19:11:32.079
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-06 19:11:32.081
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/patches' does not exist
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.350
+!MESSAGE NLS unused message: NewProjectCreator_coreException1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.351
+!MESSAGE NLS unused message: NewProjectCreator_coreException2 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.353
+!MESSAGE NLS unused message: NewProjectCreator_coreException3 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.354
+!MESSAGE NLS unused message: NewProjectCreator_exception1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.355
+!MESSAGE NLS unused message: NewProjectCreator_wizardException1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.356
+!MESSAGE NLS unused message: NewProjectCreator_wizardException2 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.357
+!MESSAGE NLS unused message: NewProjectCreator_wizardException3 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.358
+!MESSAGE NLS unused message: NewProjectCreator_wizardException4 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.359
+!MESSAGE NLS unused message: NewProjectCreator_wizardException5 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.361
+!MESSAGE NLS unused message: NewProjectCreator_wizardException6 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.362
+!MESSAGE NLS unused message: NewProjectCreator_wizardException7 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.363
+!MESSAGE NLS unused message: NewProjectCreator_wizardException8 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.364
+!MESSAGE NLS unused message: NewProjectCreator_wizardException9 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.365
+!MESSAGE NLS unused message: NewProjectCreator_logError1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.366
+!MESSAGE NLS unused message: NewProjectCreator_logError2 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.368
+!MESSAGE NLS unused message: NewProjectCreator_logError3 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.369
+!MESSAGE NLS unused message: NewProjectCreator_logError4 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.370
+!MESSAGE NLS unused message: NewProjectCreator_multiProjType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.371
+!MESSAGE NLS unused message: NewProjectCreator_typeNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.375
+!MESSAGE NLS unused message: NewProjectCreator_saveOptions in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.376
+!MESSAGE NLS unused message: NewProjectCreator_cantLocateType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.377
+!MESSAGE NLS unused message: NewProjectCreator_addNature in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.378
+!MESSAGE NLS unused message: NewProjectCreator_addBuilder in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.379
+!MESSAGE NLS unused message: NewProjectCreator_settingNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.380
+!MESSAGE NLS unused message: NewProjectCreator_optionNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.381
+!MESSAGE NLS unused message: NewProjectCreator_unknownOption in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.383
+!MESSAGE NLS unused message: NewProjectCreator_configNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.384
+!MESSAGE NLS unused message: NewProjectCreator_varContainsOpenBrace in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.385
+!MESSAGE NLS unused message: NewProjectCreator_endlessVarLoop in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.386
+!MESSAGE NLS unused message: NewProjectCreator_userFilesNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.387
+!MESSAGE NLS unused message: NewProjectCreator_warningTitleFilesNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.388
+!MESSAGE NLS unused message: ExtensionLoader_loadexception in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.389
+!MESSAGE NLS unused message: ExtensionLoader_wizardException in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.390
+!MESSAGE NLS unused message: ExtensionLoader_unknown in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.391
+!MESSAGE NLS unused message: ExtensionLoader_illElement in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.393
+!MESSAGE NLS unused message: CWWizard_windowTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.394
+!MESSAGE NLS unused message: CWWizard_description in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.395
+!MESSAGE NLS unused message: CWWizard_pageTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.396
+!MESSAGE NLS unused message: CWWizard_pageDescription in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.397
+!MESSAGE NLS unused message: CWWizard_errorTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.398
+!MESSAGE NLS unused message: CWWizard_errorMsg in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.399
+!MESSAGE NLS unused message: CWWizard_classicImporter_pageTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.400
+!MESSAGE NLS unused message: CWWizard_classicImporter_pageDescription in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.402
+!MESSAGE NLS unused message: WizardInfo_wizardException0 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.403
+!MESSAGE NLS unused message: WizardInfo_wizardException1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.404
+!MESSAGE NLS unused message: ApplySetting_noChildFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.405
+!MESSAGE NLS unused message: ApplySetting_attrNotAllowed in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.406
+!MESSAGE NLS unused message: ApplySetting_childNotAllowed in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.407
+!MESSAGE NLS unused message: ApplySetting_attrNotSpecified in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.408
+!MESSAGE NLS unused message: ApplySetting_errValueType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.410
+!MESSAGE NLS unused message: ApplySetting_illSettingType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.411
+!MESSAGE NLS unused message: ApplySetting_illSettingMode in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.412
+!MESSAGE NLS unused message: ProjectNamePage_stepFormat in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.413
+!MESSAGE NLS unused message: ProjectNamePage_collisionWarn in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.414
+!MESSAGE NLS unused message: ProjectName_error in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-06 19:13:49.415
+!MESSAGE NLS unused message: ProjectLocation_error in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.350
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.hcs08
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.352
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.rs08
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.353
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.s12z
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.355
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.dsc
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.356
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.mpc56xx
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.357
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.px
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.358
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.cfv1
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.359
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.cfv1+
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.360
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v2
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.361
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.362
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.363
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v4e
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.364
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v2
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.365
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.367
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.368
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v4e
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.369
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v2
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.370
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.371
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:13:51.372
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v4e
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:14:46.664
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.mk10.ID_CHIP_MK10N512
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:14:46.666
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.mk10.ID_CHIP_MK10X128
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:14:46.667
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.mk10.ID_CHIP_MK10X256
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:10.987
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_SIZE_LIB_YES
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:10.990
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.pa.hasPermanent.dualCore.homogeneous.config
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:10.992
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_SOFTWARE_FPU
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:10.993
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_HARDWARE_FPU
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:10.994
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_SIZE_LIB_NO
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.002
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.hc08
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.006
+!MESSAGE Unknown condition ID: com.processorexpert.variant.7
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.007
+!MESSAGE Unknown condition ID: com.processorexpert.variant.8
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.009
+!MESSAGE Unknown condition ID: com.processorexpert.variant.9
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.012
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.013
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.014
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.5
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.016
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.6
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.233
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.isColdFire.v1.ID_TARGET_BOOTFLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.234
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_INTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.236
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_CONSOLE_INTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.237
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_EXTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.238
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_CONSOLE_EXTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.239
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_INTFLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.240
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_EXTFLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.242
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_INTERNAL_FLASH_SDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.243
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_INTERNAL_FLASH_LDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.244
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_EXTERNAL_RAM_SDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.245
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_EXTERNAL_RAM_LDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.246
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_SIMULATOR
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.247
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.pa.ID_TARGET_INTERNAL_RAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:11.249
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.pa.ID_TARGET_INTERNAL_FLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.060
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copytoproject.cfv1
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.061
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.dontcopytoproject
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.062
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.abs
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.063
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copyelf.pa
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.064
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.elf.arm
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.066
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.elf.dsc
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.067
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.elf.s12z
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.068
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.bb.elf
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.069
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.kd.elf
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.070
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.app.elf
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.071
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.flt
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:12.072
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.arm.setPnEAttribute.STARTUP_USE_SWD
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-06 19:15:20.364
+!MESSAGE Unknown condition ID: mcu.projectwizard.chip.family.cfv1+
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-06 19:15:24.306
+!MESSAGE Indexed 'Lab2-do-over' (2 sources, 26 headers) in 3.03 sec: 288 declarations; 792 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.237
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.320
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.321
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.322
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.324
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.325
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.326
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.327
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.328
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.329
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.330
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.332
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.333
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.334
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.335
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.336
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.337
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.338
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.339
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.341
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.342
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.343
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.344
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.345
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.347
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.348
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.350
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.352
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.353
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.355
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.356
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.358
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.359
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.361
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.362
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.363
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.365
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.366
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.367
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.368
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.369
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.370
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.372
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.373
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.374
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.375
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.376
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.377
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.378
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.379
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.380
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.381
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.383
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.384
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.385
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.386
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.388
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.389
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.391
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.392
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.394
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.395
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.396
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.397
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.399
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.400
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.401
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.402
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.403
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.404
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.405
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.406
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.407
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.409
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.410
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.411
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.412
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.413
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.414
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.415
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.416
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.417
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.418
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.419
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.420
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.421
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.422
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.424
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.425
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.426
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.427
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.428
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.429
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.430
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.431
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.432
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.433
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.434
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.435
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.436
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.449
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.450
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.451
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.452
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.453
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.454
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.456
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.457
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.458
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.459
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.460
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.461
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.462
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.463
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.464
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.465
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.466
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.467
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.468
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.469
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.471
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.472
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.473
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.474
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.475
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.476
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.477
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.478
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.479
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.480
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.481
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.482
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.483
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.484
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.486
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.487
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.488
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.489
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.490
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.491
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.492
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.493
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.494
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.495
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.496
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.497
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.498
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.500
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.501
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.502
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.503
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.504
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.505
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.506
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.507
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.508
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.509
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.510
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.511
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.512
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.513
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.514
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.516
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.517
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.518
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.519
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.520
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.521
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.522
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.523
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.524
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.525
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.526
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.527
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.528
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.529
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.531
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.533
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.534
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.535
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.536
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.537
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.538
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.539
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.540
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.541
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.542
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.543
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.544
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.545
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.546
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.547
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.549
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.550
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.551
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.552
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.553
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.554
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.555
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.556
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.557
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.558
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.559
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.560
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.561
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.563
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.564
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.565
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.574
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.576
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.577
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.578
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.579
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.580
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.581
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.582
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.583
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.584
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.586
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.587
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.588
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.589
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.590
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.591
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.592
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.593
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.594
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.595
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.596
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.597
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.598
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.599
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.600
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.602
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.603
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.604
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.605
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.606
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.607
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.608
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.609
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.610
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.612
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.613
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.614
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.615
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.616
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.617
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.618
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.619
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.620
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.621
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.622
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.623
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.624
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.625
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.627
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.628
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.629
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.630
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.631
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.632
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.633
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.634
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.635
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.637
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.638
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.639
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.640
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.641
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.642
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.643
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.644
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.645
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.646
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.647
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.648
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.650
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.651
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.652
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.653
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.654
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.655
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.656
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.657
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.658
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.659
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.660
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.661
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.662
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.663
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.664
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.665
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.667
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.668
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.669
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.670
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.671
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.672
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.673
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.674
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.675
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.676
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.677
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.678
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.679
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.681
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.682
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.683
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.684
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.685
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.686
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.687
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.688
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.689
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.690
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.691
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.692
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.693
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.694
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.695
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.697
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.698
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.699
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.700
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.701
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.702
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.703
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.eqionox.internal.p2.engine.phases 1 0 2014-08-07 16:11:51.704
+!MESSAGE CheckResources phase : null
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.561
+!MESSAGE NLS missing message: BackupStore_0_of_1_items_restored in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.562
+!MESSAGE NLS missing message: BackupStore_backupCopy_closed_store in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.563
+!MESSAGE NLS missing message: BackupStore_can_not_close_tcp_port in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.564
+!MESSAGE NLS missing message: BackupStore_can_not_copy_directory in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.565
+!MESSAGE NLS missing message: BackupStore_can_not_create_dummy in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.566
+!MESSAGE NLS missing message: BackupStore_can_not_delete_after_copy_0 in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.567
+!MESSAGE NLS missing message: BackupStore_can_not_delete_tmp_file in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.568
+!MESSAGE NLS missing message: BackupStore_can_not_remove in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.569
+!MESSAGE NLS missing message: BackupStore_can_not_remove_bu_directory in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.570
+!MESSAGE NLS missing message: BackupStore_directory_file_mismatch in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.572
+!MESSAGE NLS missing message: BackupStore_directory_not_empty in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.573
+!MESSAGE NLS missing message: BackupStore_errors_while_restoring_see_log in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.574
+!MESSAGE NLS missing message: BackupStore_externally_modified_0_of_1_restored in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.575
+!MESSAGE NLS missing message: BackupStore_file_directory_mismatch in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.576
+!MESSAGE NLS missing message: BackupStore_file_not_found in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.577
+!MESSAGE NLS missing message: BackupStore_manual_restore_needed in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.578
+!MESSAGE NLS missing message: BackupStore_missing_backup_directory in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.579
+!MESSAGE NLS missing message: BackupStore_not_a_directory in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.580
+!MESSAGE NLS missing message: BackupStore_restore_closed_store in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.581
+!MESSAGE NLS missing message: action_0_failed_file_1_doesNotExist in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.582
+!MESSAGE NLS missing message: artifact_not_available in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.583
+!MESSAGE NLS missing message: artifact_repo_not_found in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.584
+!MESSAGE NLS missing message: could_not_obtain_download_cache in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.585
+!MESSAGE NLS missing message: download_cache_not_writeable in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.586
+!MESSAGE NLS missing message: unzipping in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.587
+!MESSAGE NLS missing message: param_not_set in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.589
+!MESSAGE NLS missing message: copy_failed in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.590
+!MESSAGE NLS missing message: failed_backup_restore in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.591
+!MESSAGE NLS missing message: backup_file_failed in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.592
+!MESSAGE NLS missing message: Error_list_children_0 in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.593
+!MESSAGE NLS missing message: link_failed in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.594
+!MESSAGE NLS missing message: mkdir_failed in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.595
+!MESSAGE NLS missing message: rmdir_failed in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.596
+!MESSAGE NLS missing message: Util_Invalid_Zip_File_Format in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.597
+!MESSAGE NLS missing message: Util_Error_Unzipping in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.598
+!MESSAGE NLS missing message: merge_failed in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.599
+!MESSAGE NLS missing message: resources_locked in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.600
+!MESSAGE NLS missing message: FreescaleInstall_CreateLockedFilesFolderFailure in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.601
+!MESSAGE NLS missing message: FreescaleInstall_InvalidFilePath in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.602
+!MESSAGE NLS missing message: FreescaleInstall_CreateDestFileFailure in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.603
+!MESSAGE NLS missing message: FreescaleInstall_CopyLockedFileFailure in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:12:12.604
+!MESSAGE NLS missing message: FreescaleInstall_LockedFileDetection in: com.freescale.updater.customActions.messages
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:13:15.376
+!MESSAGE osName: win32
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:13:15.377
+!MESSAGE Execute: cmd.exe /C setup.bat
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:13:15.751
+!MESSAGE OUTPUT> 
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:13:15.752
+!MESSAGE OUTPUT> C:\Freescale\CW MCU v10.6\Drivers\Segger>InstDrivers.exe
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:13:19.882
+!MESSAGE OUTPUT> ERRORLEVEL = 0
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:13:19.885
+!MESSAGE ExitValue: 0
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-08-07 16:14:09.208
+!MESSAGE C:\Users\Creasote\AppData\Local\Temp\fu_1407391999889\MCU\bin\boost_date_time-vc90-mt-1_47.dll was detected as locked.
+
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2014-08-07 16:14:12.036
+!MESSAGE C:\Users\Creasote\AppData\Local\Temp\fu_1407391999889\MCU\bin\xerces-2_2_0.dll was detected as locked.
+
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:14:32.110
+!MESSAGE osName: win32
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:14:32.111
+!MESSAGE Execute: cmd.exe /C register_xpcom.bat
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:14:32.198
+!MESSAGE OUTPUT> Registering...
+
+!ENTRY org.eclipse.equinox.p2.repository 1 0 2014-08-07 16:15:31.262
+!MESSAGE ExitValue: 0
+!SESSION 2014-08-07 16:16:08.660 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:16:26.747
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.processorexpert.core 1 0 2014-08-07 16:16:31.649
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.525
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.526
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.528
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.529
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.531
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.533
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.534
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.536
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.537
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.538
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.540
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.541
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.542
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.543
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.545
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.547
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.551
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:17:25.553
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:17:26.515
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:17:26.520
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:17:26.522
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:17:26.523
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:17:49.563
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:17:49.565
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:17:49.567
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:18:10.043
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:18:10.087
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:18:10.089
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/patches' does not exist
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:38:15.115
+!MESSAGE NLS unused message: trace_trigger_dv_error_title in: com.freescale.sa.mcu.analysispoints.nls.ui
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:38:15.128
+!MESSAGE NLS unused message: trace_trigger_dv_error_message in: com.freescale.sa.mcu.analysispoints.nls.ui
+
+!ENTRY org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15f342a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15f342a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@159d708,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@159d708,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1345303,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1345303,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@361fea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@361fea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1697220,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1697220,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c396ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c396ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d94618,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d94618,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@188f57b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@188f57b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 16:38:15.376
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ac7cc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ac7cc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SESSION 2014-08-07 16:48:36.338 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-08-07 16:48:41.166
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:48:42.277
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.processorexpert.core 1 0 2014-08-07 16:48:45.738
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:48:54.919
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:48:54.921
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:48:54.923
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2014-08-07 16:48:54.925
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:48:55.000
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:48:55.003
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:48:55.004
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:48:59.492
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/cf' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:48:59.494
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2014-08-07 16:48:59.495
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6\eclipse\../MCU/lib/wizard_data/mqx/4.1/patches' does not exist
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.205
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.207
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.208
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.209
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.210
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.212
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.213
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.214
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.215
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.216
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.223
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.225
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.226
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.227
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.228
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.230
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.231
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.help 4 0 2014-08-07 16:49:08.232
+!MESSAGE Required attribute "label" missing from "topic" element in "/com.freescale.doc.mcu.s08.s12z.btutility.manual/toc.xml" (skipping element)
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:49:41.836
+!MESSAGE NLS unused message: trace_trigger_dv_error_title in: com.freescale.sa.mcu.analysispoints.nls.ui
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:49:41.837
+!MESSAGE NLS unused message: trace_trigger_dv_error_message in: com.freescale.sa.mcu.analysispoints.nls.ui
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:50:31.683
+!MESSAGE NLS missing message: DisassemblyPreferencePage_showFunctionOffsets in: org.eclipse.cdt.dsf.debug.internal.ui.disassembly.DisassemblyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:50:31.684
+!MESSAGE NLS missing message: DisassemblyPreferencePage_showFunctionOffsetsTooltip in: org.eclipse.cdt.dsf.debug.internal.ui.disassembly.DisassemblyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:50:31.685
+!MESSAGE NLS missing message: DisassemblyPreferencePage_showCodeBytes in: org.eclipse.cdt.dsf.debug.internal.ui.disassembly.DisassemblyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:50:31.686
+!MESSAGE NLS missing message: DisassemblyPreferencePage_showCodeBytesTooltip in: org.eclipse.cdt.dsf.debug.internal.ui.disassembly.DisassemblyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:50:31.687
+!MESSAGE NLS missing message: DisassemblyPreferencePage_showAddress in: org.eclipse.cdt.dsf.debug.internal.ui.disassembly.DisassemblyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 16:50:31.688
+!MESSAGE NLS missing message: DisassemblyPreferencePage_showAddressTooltip in: org.eclipse.cdt.dsf.debug.internal.ui.disassembly.DisassemblyMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.811
+!MESSAGE NLS unused message: NewProjectCreator_coreException1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.812
+!MESSAGE NLS unused message: NewProjectCreator_coreException2 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.813
+!MESSAGE NLS unused message: NewProjectCreator_coreException3 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.814
+!MESSAGE NLS unused message: NewProjectCreator_exception1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.815
+!MESSAGE NLS unused message: NewProjectCreator_wizardException1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.816
+!MESSAGE NLS unused message: NewProjectCreator_wizardException2 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.817
+!MESSAGE NLS unused message: NewProjectCreator_wizardException3 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.818
+!MESSAGE NLS unused message: NewProjectCreator_wizardException4 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.819
+!MESSAGE NLS unused message: NewProjectCreator_wizardException5 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.820
+!MESSAGE NLS unused message: NewProjectCreator_wizardException6 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.822
+!MESSAGE NLS unused message: NewProjectCreator_wizardException7 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.823
+!MESSAGE NLS unused message: NewProjectCreator_wizardException8 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.824
+!MESSAGE NLS unused message: NewProjectCreator_wizardException9 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.825
+!MESSAGE NLS unused message: NewProjectCreator_logError1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.826
+!MESSAGE NLS unused message: NewProjectCreator_logError2 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.827
+!MESSAGE NLS unused message: NewProjectCreator_logError3 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.828
+!MESSAGE NLS unused message: NewProjectCreator_logError4 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.829
+!MESSAGE NLS unused message: NewProjectCreator_multiProjType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.830
+!MESSAGE NLS unused message: NewProjectCreator_typeNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.831
+!MESSAGE NLS unused message: NewProjectCreator_saveOptions in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.833
+!MESSAGE NLS unused message: NewProjectCreator_cantLocateType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.834
+!MESSAGE NLS unused message: NewProjectCreator_addNature in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.835
+!MESSAGE NLS unused message: NewProjectCreator_addBuilder in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.836
+!MESSAGE NLS unused message: NewProjectCreator_settingNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.837
+!MESSAGE NLS unused message: NewProjectCreator_optionNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.838
+!MESSAGE NLS unused message: NewProjectCreator_unknownOption in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.839
+!MESSAGE NLS unused message: NewProjectCreator_configNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.840
+!MESSAGE NLS unused message: NewProjectCreator_varContainsOpenBrace in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.842
+!MESSAGE NLS unused message: NewProjectCreator_endlessVarLoop in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.843
+!MESSAGE NLS unused message: NewProjectCreator_userFilesNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.844
+!MESSAGE NLS unused message: NewProjectCreator_warningTitleFilesNotFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.845
+!MESSAGE NLS unused message: ExtensionLoader_loadexception in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.846
+!MESSAGE NLS unused message: ExtensionLoader_wizardException in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.847
+!MESSAGE NLS unused message: ExtensionLoader_unknown in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.848
+!MESSAGE NLS unused message: ExtensionLoader_illElement in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.849
+!MESSAGE NLS unused message: CWWizard_windowTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.850
+!MESSAGE NLS unused message: CWWizard_description in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.852
+!MESSAGE NLS unused message: CWWizard_pageTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.853
+!MESSAGE NLS unused message: CWWizard_pageDescription in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.854
+!MESSAGE NLS unused message: CWWizard_errorTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.855
+!MESSAGE NLS unused message: CWWizard_errorMsg in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.856
+!MESSAGE NLS unused message: CWWizard_classicImporter_pageTitle in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.857
+!MESSAGE NLS unused message: CWWizard_classicImporter_pageDescription in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.858
+!MESSAGE NLS unused message: WizardInfo_wizardException0 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.860
+!MESSAGE NLS unused message: WizardInfo_wizardException1 in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.861
+!MESSAGE NLS unused message: ApplySetting_noChildFound in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.862
+!MESSAGE NLS unused message: ApplySetting_attrNotAllowed in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.863
+!MESSAGE NLS unused message: ApplySetting_childNotAllowed in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.864
+!MESSAGE NLS unused message: ApplySetting_attrNotSpecified in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.865
+!MESSAGE NLS unused message: ApplySetting_errValueType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.866
+!MESSAGE NLS unused message: ApplySetting_illSettingType in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.867
+!MESSAGE NLS unused message: ApplySetting_illSettingMode in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.868
+!MESSAGE NLS unused message: ProjectNamePage_stepFormat in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.869
+!MESSAGE NLS unused message: ProjectNamePage_collisionWarn in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.871
+!MESSAGE NLS unused message: ProjectName_error in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-08-07 17:14:49.872
+!MESSAGE NLS unused message: ProjectLocation_error in: com.freescale.core.ide.newprojectwizard.messages
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.470
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.hcs08
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.471
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.rs08
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.473
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.s12z
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.475
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.dsc
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.477
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.mpc56xx
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.478
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.px
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.479
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.cfv1
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.480
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.cfv1+
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.482
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v2
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.483
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.484
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.485
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.v4e
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.486
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v2
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.487
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.489
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.490
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.board.family.v4e
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.491
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v2
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.492
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.493
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:14:50.495
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.twrboard.family.v4e
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:15:17.448
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.mk10.ID_CHIP_MK10N512
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:15:17.449
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.mk10.ID_CHIP_MK10X128
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:15:17.450
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.mk10.ID_CHIP_MK10X256
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.363
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_SIZE_LIB_YES
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.365
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.pa.hasPermanent.dualCore.homogeneous.config
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.367
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_SOFTWARE_FPU
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.368
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_HARDWARE_FPU
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.369
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_SIZE_LIB_NO
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.372
+!MESSAGE Unknown UI Element ID: mcu.projectwizard.chip.family.hc08
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.375
+!MESSAGE Unknown condition ID: com.processorexpert.variant.7
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.376
+!MESSAGE Unknown condition ID: com.processorexpert.variant.8
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.377
+!MESSAGE Unknown condition ID: com.processorexpert.variant.9
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.379
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.3
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.381
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.4
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.382
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.5
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.383
+!MESSAGE Unknown condition ID: com.processorexpert.configuration.6
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.520
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.isColdFire.v1.ID_TARGET_BOOTFLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.521
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_INTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.523
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_CONSOLE_INTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.524
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_EXTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.526
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_CONSOLE_EXTRAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.528
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_INTFLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.529
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.cf_v2v4.ID_TARGET_EXTFLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.530
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_INTERNAL_FLASH_SDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.532
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_INTERNAL_FLASH_LDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.533
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_EXTERNAL_RAM_SDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.534
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_EXTERNAL_RAM_LDM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.535
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.dsc.ID_TARGET_SIMULATOR
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.536
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.pa.ID_TARGET_INTERNAL_RAM
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.537
+!MESSAGE Unknown condition ID: mcu.projectwizard.condition.pa.ID_TARGET_INTERNAL_FLASH
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.996
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copytoproject.cfv1
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.997
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.dontcopytoproject
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.998
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.abs
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:23.999
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copyelf.pa
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.000
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.elf.arm
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.001
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.elf.dsc
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.002
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.elf.s12z
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.003
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.bb.elf
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.005
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.kd.elf
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.006
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.app.elf
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.007
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.copy.flt
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.008
+!MESSAGE Unknown condition ID: mcu.elfimporter.condition.arm.setPnEAttribute.STARTUP_USE_SWD
+
+!ENTRY com.freescale.core.ide.wizard.ui 4 0 2014-08-07 17:16:24.689
+!MESSAGE Unknown condition ID: mcu.projectwizard.chip.family.cfv1+
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-08-07 17:16:49.611
+!MESSAGE Indexed 'Lab2_take3' (7 sources, 68 headers) in 3.34 sec: 3,065 declarations; 6,208 references; 1 unresolved inclusions; 26 syntax errors; 54 unresolved names (0.58%)
+
+!ENTRY org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@897f78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@897f78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10fb30c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10fb30c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b3df87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1b3df87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1818f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1818f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d598a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d598a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@71868a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@71868a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@137e9f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@137e9f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e03b9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e03b9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-08-07 17:21:20.526
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6907b5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6907b5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY org.eclipse.debug.ui 4 2 2014-08-07 17:23:14.745
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+java.lang.NullPointerException
+	at com.freescale.sa.mcu.launch.configandcollect.ArmTraceStateSourceProvider.updateTraceSession(ArmTraceStateSourceProvider.java:94)
+	at com.freescale.sa.ui.commands.TraceStateSourceProvider.activateTraceSession(TraceStateSourceProvider.java:95)
+	at com.freescale.sa.ui.commands.TraceStateSourceProvider.debugContextChanged(TraceStateSourceProvider.java:114)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService$1.run(DebugWindowContextService.java:212)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.notify(DebugWindowContextService.java:210)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.notify(DebugWindowContextService.java:185)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.debugContextChanged(DebugWindowContextService.java:408)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider$1.run(AbstractDebugContextProvider.java:79)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider.fire(AbstractDebugContextProvider.java:77)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView$ContextProviderProxy.debugContextChanged(LaunchView.java:508)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider$1.run(AbstractDebugContextProvider.java:79)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider.fire(AbstractDebugContextProvider.java:77)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView$TreeViewerContextProvider.activate(LaunchView.java:373)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView$1.selectionChanged(LaunchView.java:470)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleInvalidSelection(StructuredViewer.java:1175)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.handleInvalidSelection(InternalTreeModelViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1456)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.TreeViewer.remove(TreeViewer.java:874)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.handleRemove(TreeModelContentProvider.java:1412)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateNodes(TreeModelContentProvider.java:1146)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateNodes(TreeModelContentProvider.java:1178)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateModel(TreeModelContentProvider.java:434)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doModelChanged(TreeModelContentProvider.java:407)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.access$0(TreeModelContentProvider.java:401)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider$2.run(TreeModelContentProvider.java:389)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:155)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4159)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:630)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:585)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1439)
+
+!ENTRY org.eclipse.debug.ui 4 120 2014-08-07 17:23:14.748
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.NullPointerException
+	at com.freescale.sa.mcu.launch.configandcollect.ArmTraceStateSourceProvider.updateTraceSession(ArmTraceStateSourceProvider.java:94)
+	at com.freescale.sa.ui.commands.TraceStateSourceProvider.activateTraceSession(TraceStateSourceProvider.java:95)
+	at com.freescale.sa.ui.commands.TraceStateSourceProvider.debugContextChanged(TraceStateSourceProvider.java:114)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService$1.run(DebugWindowContextService.java:212)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.notify(DebugWindowContextService.java:210)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.notify(DebugWindowContextService.java:185)
+	at org.eclipse.debug.internal.ui.contexts.DebugWindowContextService.debugContextChanged(DebugWindowContextService.java:408)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider$1.run(AbstractDebugContextProvider.java:79)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider.fire(AbstractDebugContextProvider.java:77)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView$ContextProviderProxy.debugContextChanged(LaunchView.java:508)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider$1.run(AbstractDebugContextProvider.java:79)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.ui.contexts.AbstractDebugContextProvider.fire(AbstractDebugContextProvider.java:77)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView$TreeViewerContextProvider.activate(LaunchView.java:373)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView$1.selectionChanged(LaunchView.java:470)
+	at org.eclipse.jface.viewers.Viewer$2.run(Viewer.java:164)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:162)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2188)
+	at org.eclipse.jface.viewers.StructuredViewer.handleInvalidSelection(StructuredViewer.java:1175)
+	at org.eclipse.debug.internal.ui.viewers.model.InternalTreeModelViewer.handleInvalidSelection(InternalTreeModelViewer.java:396)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1456)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1404)
+	at org.eclipse.jface.viewers.TreeViewer.remove(TreeViewer.java:874)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.handleRemove(TreeModelContentProvider.java:1412)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateNodes(TreeModelContentProvider.java:1146)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateNodes(TreeModelContentProvider.java:1178)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.updateModel(TreeModelContentProvider.java:434)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.doModelChanged(TreeModelContentProvider.java:407)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider.access$0(TreeModelContentProvider.java:401)
+	at org.eclipse.debug.internal.ui.viewers.model.TreeModelContentProvider$2.run(TreeModelContentProvider.java:389)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:155)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4159)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:630)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:585)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1439)
+
+!ENTRY com.freescale.core.debugger.cdt 4 0 2014-08-07 18:14:15.107
+!MESSAGE A debug session is already in progress.
+
+!ENTRY com.freescale.core.debugger.cdt 4 101789 2014-08-07 18:14:15.137
+!MESSAGE Error launching CC3501_Lab2_FLASH_OpenSDA
+!STACK 1
+org.eclipse.core.runtime.CoreException: Can only debug one program at a time.
+	at com.freescale.cdt.debug.cw.core.DebugErrorUtils.handleDebugCoreError(DebugErrorUtils.java:281)
+	at com.freescale.cdt.launch.cw.DownloadLaunchDelegate.cwDoLaunch(DownloadLaunchDelegate.java:542)
+	at com.freescale.cdt.launch.cw.BaseLaunchDelegate.doLaunch(BaseLaunchDelegate.java:203)
+	at com.freescale.cdt.launch.cw.DownloadLaunchDelegate.launchDebug(DownloadLaunchDelegate.java:276)
+	at com.freescale.cdt.launch.cw.DownloadLaunchDelegate.launch(DownloadLaunchDelegate.java:123)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:862)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.freescale.core.debugger.cdt 4 101789 2014-08-07 18:14:15.138
+!MESSAGE Can only debug one program at a time.
+
+!ENTRY org.eclipse.debug.core 4 2 2014-08-07 18:54:34.257
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1265)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2606)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:236)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:225)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.update(RemoveAllGlobalsActionDelegate.java:99)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.handleDebugEvents(RemoveAllGlobalsActionDelegate.java:131)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2014-08-07 18:54:34.260
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1265)
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2606)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:236)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:225)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.update(RemoveAllGlobalsActionDelegate.java:99)
+	at org.eclipse.cdt.debug.internal.ui.actions.RemoveAllGlobalsActionDelegate.handleDebugEvents(RemoveAllGlobalsActionDelegate.java:131)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 2 2014-08-07 18:54:34.283
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.getMemorySite(CMemoryRenderingStore.java:82)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore$2.run(CMemoryRenderingStore.java:220)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:200)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4702)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.handleDebugEvents(CMemoryRenderingStore.java:218)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.debug.core 4 125 2014-08-07 18:54:34.286
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.getMemorySite(CMemoryRenderingStore.java:82)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore$2.run(CMemoryRenderingStore.java:220)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:200)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4702)
+	at org.eclipse.cdt.debug.internal.ui.views.memory.CMemoryRenderingStore.handleDebugEvents(CMemoryRenderingStore.java:218)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1143)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:407)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="OptionalMessageDialog.hide.">
+		<item value="2" key="com.freescale.cdt.debug.cw.PN_SuppressDialog927dc758c805ca26e2dd28d96539ba1a20bcf5"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="SIMPLE_FLASH_DIALOG_SETTINGS_SECTION">
+		<item value="true" key="SIMPLE_FLASH_DIALOG_SETTINGS_SAVE_TARGET_TASK_OPTION"/>
+		<item value="0" key="SIMPLE_FLASH_DIALOG_SETTINGS_FILE_OFFSET"/>
+		<item value="false" key="SIMPLE_FLASH_DIALOG_SETTINGS_UNPROTECT_OPTION"/>
+		<item value="" key="SIMPLE_FLASH_DIALOG_SETTINGS_FILENAME"/>
+		<item value="K20DX128" key="SIMPLE_FLASH_DIALOG_SETTINGS_PROCESSOR"/>
+		<item value="Lab2_FLASH_OpenSDA" key="SIMPLE_FLASH_DIALOG_SETTINGS_SYSTEM"/>
+		<item value="0" key="SIMPLE_FLASH_DIALOG_SETTINGS_FLASH_CONFIGURATION_INDEX"/>
+		<item value="" key="SIMPLE_FLASH_FLASH_CONFIG_FOLDER"/>
+		<list key="QUICK_FLASH_DIALOG_SETTINGS_FLASH_CONFIGURATIONS">
+			<item value="C:\Freescale\CW MCU v10.5\MCU\bin\plugins\support\TargetTask\Flash_Programmer\ARM\K20DX128.xml"/>
+			<item value="C:\Freescale\CW MCU v10.5\MCU\bin\plugins\support\TargetTask\Flash_Programmer\ARM\K20DX128M10.xml"/>
+			<item value="C:\Freescale\CW MCU v10.5\MCU\bin\plugins\support\TargetTask\Flash_Programmer\ARM\K20DX128M7.xml"/>
+			<item value="C:\Freescale\CW MCU v10.5\MCU\bin\plugins\support\TargetTask\Flash_Programmer\ARM\K20DX128Z.xml"/>
+		</list>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+</section>
